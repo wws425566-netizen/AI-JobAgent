@@ -13,6 +13,7 @@ class JobPosting(Base):
 
     id: Mapped[int] = mapped_column(Integer, primary_key=True, index=True)
     title: Mapped[str] = mapped_column(String(120), nullable=False)
+    role_category: Mapped[str] = mapped_column(String(40), nullable=False)
     company_name: Mapped[str] = mapped_column(String(120), nullable=False)
     company_type: Mapped[str] = mapped_column(String(40), nullable=False)
     location: Mapped[str] = mapped_column(String(80), nullable=False)

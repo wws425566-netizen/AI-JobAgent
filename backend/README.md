@@ -54,6 +54,30 @@ uvicorn app.main:app --reload
 
 返回 SQLite 中保存的岗位列表。
 
+### POST /api/recommendations
+
+接收用户画像并返回匹配分数最高的 5 个岗位。评分由必备技能、加分技能、经验、日语、岗位方向、地点和薪资组成；项目经历简介暂时只接收，不参与规则评分。
+
+Swagger 中可以使用下面的请求数据测试：
+
+```json
+{
+  "skills": ["Python", "FastAPI", "SQL", "Linux"],
+  "experience_years": 1,
+  "japanese_level": "N2",
+  "desired_role": "backend",
+  "preferred_locations": ["东京"],
+  "expected_salary": 300000,
+  "project_summary": "使用 FastAPI 和 SQLite 开发后端项目"
+}
+```
+
+## 运行测试
+
+```powershell
+.\.venv\Scripts\python.exe -m unittest discover -s tests -v
+```
+
 ## 初始化岗位数据
 
 ```powershell

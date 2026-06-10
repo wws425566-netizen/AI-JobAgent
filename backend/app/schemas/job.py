@@ -7,6 +7,7 @@ from pydantic import BaseModel, ConfigDict
 class JobPostingRead(BaseModel):
     id: int
     title: str
+    role_category: str
     company_name: str
     company_type: str
     location: str

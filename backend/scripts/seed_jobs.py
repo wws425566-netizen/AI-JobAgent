@@ -7,6 +7,7 @@ from app.models.job_posting import JobPosting
 SEED_JOBS = [
     {
         "title": "Backend Engineer",
+        "role_category": "backend",
         "company_name": "Tokyo FinTech Labs",
         "company_type": "自社开发",
         "location": "东京",
@@ -20,6 +21,7 @@ SEED_JOBS = [
     },
     {
         "title": "Java Web Engineer",
+        "role_category": "backend",
         "company_name": "Osaka System Works",
         "company_type": "受托开发",
         "location": "大阪",
@@ -33,6 +35,7 @@ SEED_JOBS = [
     },
     {
         "title": "Frontend Engineer",
+        "role_category": "frontend",
         "company_name": "Shibuya Web Studio",
         "company_type": "自社开发",
         "location": "东京",
@@ -46,6 +49,7 @@ SEED_JOBS = [
     },
     {
         "title": "Infrastructure Engineer",
+        "role_category": "infra",
         "company_name": "Cloud Bridge Japan",
         "company_type": "SES",
         "location": "东京",
@@ -59,6 +63,7 @@ SEED_JOBS = [
     },
     {
         "title": "Database Engineer",
+        "role_category": "data",
         "company_name": "Kansai Data Solutions",
         "company_type": "受托开发",
         "location": "大阪",
@@ -72,6 +77,7 @@ SEED_JOBS = [
     },
     {
         "title": "AI Application Engineer",
+        "role_category": "ai",
         "company_name": "Akasaka AI Partners",
         "company_type": "自社开发",
         "location": "东京",
@@ -85,6 +91,7 @@ SEED_JOBS = [
     },
     {
         "title": "C++ Software Engineer",
+        "role_category": "embedded",
         "company_name": "Nagoya Embedded Tech",
         "company_type": "自社开发",
         "location": "名古屋",
@@ -98,6 +105,7 @@ SEED_JOBS = [
     },
     {
         "title": "QA Automation Engineer",
+        "role_category": "qa",
         "company_name": "Yokohama Quality Base",
         "company_type": "派遣",
         "location": "横滨",
@@ -111,6 +119,7 @@ SEED_JOBS = [
     },
     {
         "title": "Full Stack Engineer",
+        "role_category": "fullstack",
         "company_name": "Fukuoka Product Hub",
         "company_type": "自社开发",
         "location": "福冈",
@@ -124,6 +133,7 @@ SEED_JOBS = [
     },
     {
         "title": "Security Engineer",
+        "role_category": "security",
         "company_name": "Tokyo Secure Systems",
         "company_type": "SES",
         "location": "东京",
@@ -137,6 +147,7 @@ SEED_JOBS = [
     },
     {
         "title": "Cloud Support Engineer",
+        "role_category": "infra",
         "company_name": "Sapporo Cloud Desk",
         "company_type": "受托开发",
         "location": "札幌",
@@ -150,6 +161,7 @@ SEED_JOBS = [
     },
     {
         "title": "Medical Systems Engineer",
+        "role_category": "backend",
         "company_name": "Kyoto Health IT",
         "company_type": "受托开发",
         "location": "京都",
@@ -163,6 +175,7 @@ SEED_JOBS = [
     },
     {
         "title": "Data Analyst Engineer",
+        "role_category": "data",
         "company_name": "Tokyo Data Market",
         "company_type": "自社开发",
         "location": "东京",
@@ -176,6 +189,7 @@ SEED_JOBS = [
     },
     {
         "title": "DevOps Engineer",
+        "role_category": "infra",
         "company_name": "Roppongi Platform Co",
         "company_type": "自社开发",
         "location": "东京",
@@ -189,6 +203,7 @@ SEED_JOBS = [
     },
     {
         "title": "SES Java Engineer",
+        "role_category": "backend",
         "company_name": "Nihon IT Service",
         "company_type": "SES",
         "location": "东京",
@@ -202,6 +217,7 @@ SEED_JOBS = [
     },
     {
         "title": "Manufacturing IoT Engineer",
+        "role_category": "embedded",
         "company_name": "Nagoya Smart Factory",
         "company_type": "自社开发",
         "location": "名古屋",
@@ -215,6 +231,7 @@ SEED_JOBS = [
     },
     {
         "title": "React Native Engineer",
+        "role_category": "mobile",
         "company_name": "Shinjuku Mobile Lab",
         "company_type": "自社开发",
         "location": "东京",
@@ -228,6 +245,7 @@ SEED_JOBS = [
     },
     {
         "title": "Banking System Engineer",
+        "role_category": "enterprise",
         "company_name": "Marunouchi Core Banking",
         "company_type": "受托开发",
         "location": "东京",
@@ -241,6 +259,7 @@ SEED_JOBS = [
     },
     {
         "title": "Python API Engineer",
+        "role_category": "backend",
         "company_name": "Minato SaaS Factory",
         "company_type": "自社开发",
         "location": "东京",
@@ -254,6 +273,7 @@ SEED_JOBS = [
     },
     {
         "title": "Network Engineer",
+        "role_category": "infra",
         "company_name": "Kobe Network Service",
         "company_type": "派遣",
         "location": "神户",
@@ -267,6 +287,7 @@ SEED_JOBS = [
     },
     {
         "title": "Healthcare Backend Engineer",
+        "role_category": "backend",
         "company_name": "Osaka Medical Cloud",
         "company_type": "自社开发",
         "location": "大阪",
@@ -280,6 +301,7 @@ SEED_JOBS = [
     },
     {
         "title": "Junior Web Engineer",
+        "role_category": "frontend",
         "company_name": "Hakata Web Works",
         "company_type": "受托开发",
         "location": "福冈",
@@ -293,6 +315,7 @@ SEED_JOBS = [
     },
     {
         "title": "Machine Learning Engineer",
+        "role_category": "ai",
         "company_name": "Tokyo Vision AI",
         "company_type": "自社开发",
         "location": "东京",
@@ -306,6 +329,7 @@ SEED_JOBS = [
     },
     {
         "title": "ERP System Engineer",
+        "role_category": "enterprise",
         "company_name": "Tokyo Enterprise Apps",
         "company_type": "受托开发",
         "location": "东京",
@@ -319,6 +343,7 @@ SEED_JOBS = [
     },
     {
         "title": "Cloud Backend Engineer",
+        "role_category": "backend",
         "company_name": "Yokohama SaaS Dock",
         "company_type": "自社开发",
         "location": "横滨",
