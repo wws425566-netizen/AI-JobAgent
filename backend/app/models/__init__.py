@@ -1,2 +1,6 @@
-"""Database models will be added in later phases."""
+"""Database models."""
+
+from app.models.job_posting import JobPosting
+
+__all__ = ["JobPosting"]
 
